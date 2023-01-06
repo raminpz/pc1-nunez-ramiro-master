@@ -1,0 +1,9 @@
+create database ventas;
+
+use ventas;
+
+create table clientes (
+id integer not null primary key,
+nombre varchar(50) not null,
+apellidos varchar(70) not null,
+telefono varchar(12) not null);
